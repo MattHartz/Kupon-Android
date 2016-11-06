@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">KuPon</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help_and_feedback">Help And Feedback</string>
+    <string name="title_activity_sign_in">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="hint_username">User Name</string>
+    <string name="hint_password">Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_forgot">Forgot your login?</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_out_short">Sign out</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="toast_unable_to_authenticate">Unable to authenticate account!</string>
+</resources>

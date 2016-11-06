@@ -1,0 +1,15 @@
+#
+# Build configuration for Circle CI
+#
+machine:
+  environment:
+    ANDROID_HOME: /home/ubuntu/android
+  java:
+    version: oraclejdk6
+    
+dependencies:
+  cache_directories:
+    - ~/.android
+    - ~/android
+  override:
+    - (source scripts/environmentSetup.sh && getAndroidSDK)

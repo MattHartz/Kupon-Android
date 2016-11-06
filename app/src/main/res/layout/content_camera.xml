@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              tools:context=".activities.CameraActivity">
+
+    <coop.com.kuponandroid.helpers.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+
+    <!-- Used for highlighting barcodes -->
+        <coop.com.kuponandroid.helpers.GraphicOverlay
+            android:id="@+id/barcodeOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </coop.com.kuponandroid.helpers.CameraSourcePreview>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageButton style="@style/AppTheme"
+                     android:layout_width="60dp"
+                     android:layout_height="60dp"
+                     android:text="New Button"
+                     android:id="@+id/captureButton"
+                     android:elevation="10dp"
+                     android:background="@drawable/circle"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
